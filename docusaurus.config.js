@@ -209,11 +209,10 @@ const config = {
         additionalLanguages: ['php', 'ini'],
       },
     }),
-  /**
   plugins: [
     [
       // This plugin conflict with i18n https://github.com/cmfcmf/docusaurus-search-local/issues/129
-      require.resolve('@cmfcmf/docusaurus-search-local'),
+      require.resolve('@anmode/docusaurus-search-local'),
       {
         // whether to index blog pages
         indexBlog: false,
@@ -262,7 +261,6 @@ const config = {
       },
     ],
   ],
-  */
 };
 
 module.exports = config;
